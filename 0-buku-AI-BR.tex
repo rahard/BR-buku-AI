@@ -1,0 +1,42 @@
+\documentclass[11pt, oneside]{memoir} % 'oneside' is key for ebook layout!
+\usepackage[
+    paperwidth=5.5in,
+    paperheight=8.5in,
+    margin=0.7in,
+    includefoot
+]{geometry}
+
+% Better typography & font encoding
+\usepackage[T1]{fontenc}
+\usepackage[bahasa,indonesian]{babel} % <-- Paket untuk Bahasa Indonesia
+\usepackage{microtype}
+
+% Block paragraphs for screen reading
+\usepackage{parskip}
+\setlength{\parskip}{1em}
+
+\usepackage{xcolor}
+% Clickable links and bookmarks
+\usepackage[colorlinks=true, allcolors=blue!50!black, pdfencoding=auto]{hyperref}
+
+% Author and title for PDF metadata
+\title{Perjalanan Kecerdasan Buatan: the Road of Artificial Intelligence}
+\author{Budi Rahardjo}
+\date{2025} % Remove date
+
+\begin{document}
+
+\maketitle
+
+\frontmatter
+\tableofcontents
+
+\mainmatter
+
+\include{1-pengantar}
+\include{2-pendahuluan}
+\backmatter
+\chapter{Afterword}
+The back matter works the same way.
+
+\end{document}
