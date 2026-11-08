@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  8 NOV 2026 09:54
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  8 NOV 2026 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,11 +428,45 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen256
 \Gm@dimlist=\toks25
 )
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/trig
+.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/
+graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/
+xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen257
+\Gin@req@width=\dimen258
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/wrapfig/wrapf
+ig.sty
+\wrapoverhang=\dimen259
+\WF@size=\dimen260
+\c@WF@wrappedlines=\count336
+\WF@box=\box58
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/babel/babel
 .sty
 Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
-\babel@savecnt=\count336
+\babel@savecnt=\count337
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
 ne 2078.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
@@ -447,13 +481,13 @@ LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?)
 on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
 on input line 2111.
-\U@D=\dimen257
+\U@D=\dimen261
 \l@unhyphenated=\language91
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/babel/xebab
 el.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count337
+\bbl@dirlevel=\count338
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/babel/local
 e/en/babel-english.tex)
@@ -483,18 +517,18 @@ ystem
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/microtype/mic
 rotype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
-\MT@toks=\toks26
-\MT@tempbox=\box58
-\MT@count=\count338
+\MT@toks=\toks27
+\MT@tempbox=\box59
+\MT@count=\count339
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
 LaTeX Info: Redefining \leftprotrusion on input line 1085.
-\MT@prot@toks=\toks27
+\MT@prot@toks=\toks28
 LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen258
+\MT@outer@kern=\dimen262
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count339
+\MT@listname@count=\count340
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/microtype/mic
 rotype-xetex.def
@@ -521,10 +555,6 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
 
-(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/
-xetex.def
-File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
-)
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/math
 color.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
@@ -565,9 +595,9 @@ tringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen259
-\Hy@linkcounter=\count340
-\Hy@pagecounter=\count341
+\@linkdim=\dimen263
+\Hy@linkcounter=\count341
+\Hy@pagecounter=\count342
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/hyperref/pd1e
 nc.def
@@ -577,7 +607,7 @@ File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 calc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count342
+\Hy@SavedSpaceFactor=\count343
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/hyperref/puen
 c.def
@@ -592,14 +622,14 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count343
+\c@Hy@tempcnt=\count344
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen260
+\XeTeXLinkMargin=\dimen264
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/bitset/bits
 et.sty
@@ -610,9 +640,9 @@ bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count344
-\Field@Width=\dimen261
-\Fld@charsize=\dimen262
+\Fld@menulength=\count345
+\Field@Width=\dimen265
+\Fld@charsize=\dimen266
 Package hyperref Info: Hyper figures OFF on input line 6084.
 Package hyperref Info: Link nesting OFF on input line 6089.
 Package hyperref Info: Hyper index ON on input line 6092.
@@ -620,20 +650,20 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring ON on input line 6102.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count345
-\c@Item=\count346
-\c@Hfootnote=\count347
+\Hy@abspage=\count346
+\c@Item=\count347
+\c@Hfootnote=\count348
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/hyperref/hxet
 ex.def
 File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
-\pdfm@box=\box59
-\c@Hy@AnnotLevel=\count348
-\HyField@AnnotCount=\count349
-\Fld@listcount=\count350
-\c@bookmark@seq@number=\count351
+\pdfm@box=\box60
+\c@Hy@AnnotLevel=\count349
+\HyField@AnnotCount=\count350
+\Fld@listcount=\count351
+\c@bookmark@seq@number=\count352
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/rerunfilechec
 k/rerunfilecheck.sty
@@ -651,8 +681,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/memoir/memhfi
 xc.sty
 Package: memhfixc 2025/09/16 v1.24 hyperref package fixes for memoir class
-\c@memhycontfloat=\count352
-\c@mem@Hpagenote=\count353
+\c@memhycontfloat=\count353
+\c@mem@Hpagenote=\count354
 )
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/fontspec/font
 spec.sty
@@ -662,20 +692,20 @@ Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 spec-xetex.sty
 Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count354
-\l__fontspec_language_int=\count355
-\l__fontspec_strnum_int=\count356
-\l__fontspec_tmp_int=\count357
-\l__fontspec_tmpa_int=\count358
-\l__fontspec_tmpb_int=\count359
-\l__fontspec_tmpc_int=\count360
-\l__fontspec_em_int=\count361
-\l__fontspec_emdef_int=\count362
-\l__fontspec_strong_int=\count363
-\l__fontspec_strongdef_int=\count364
-\l__fontspec_tmpa_dim=\dimen263
-\l__fontspec_tmpb_dim=\dimen264
-\l__fontspec_tmpc_dim=\dimen265
+\l__fontspec_script_int=\count355
+\l__fontspec_language_int=\count356
+\l__fontspec_strnum_int=\count357
+\l__fontspec_tmp_int=\count358
+\l__fontspec_tmpa_int=\count359
+\l__fontspec_tmpb_int=\count360
+\l__fontspec_tmpc_int=\count361
+\l__fontspec_em_int=\count362
+\l__fontspec_emdef_int=\count363
+\l__fontspec_strong_int=\count364
+\l__fontspec_strongdef_int=\count365
+\l__fontspec_tmpa_dim=\dimen267
+\l__fontspec_tmpb_dim=\dimen268
+\l__fontspec_tmpc_dim=\dimen269
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/fontenc.
 sty
@@ -703,26 +733,26 @@ Package fontspec Info:
  (./0-buku-AI-BR.aux (./1-pengantar.aux) (./2-pendahuluan.aux))
 \openout1 = `0-buku-AI-BR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -758,13 +788,13 @@ LaTeX Font Info:    ... okay on input line 58.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 58.
-Package microtype Info: Applying patch `item' on input line 58.
-Package microtype Info: Applying patch `toc' on input line 58.
-Package microtype Info: Applying patch `eqnum' on input line 58.
-Package microtype Info: Applying patch `footnote' on input line 58.
-Package microtype Info: Applying patch `verbatim' on input line 58.
-LaTeX Info: Redefining \microtypesetup on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 61.
+Package microtype Info: Applying patch `item' on input line 61.
+Package microtype Info: Applying patch `toc' on input line 61.
+Package microtype Info: Applying patch `eqnum' on input line 61.
+Package microtype Info: Applying patch `footnote' on input line 61.
+Package microtype Info: Applying patch `verbatim' on input line 61.
+LaTeX Info: Redefining \microtypesetup on input line 61.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -774,7 +804,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Charter' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 61.
 (./0-buku-AI-BR.out) (./0-buku-AI-BR.out)
 \@outlinefile=\write4
 \openout4 = `0-buku-AI-BR.out'.
@@ -786,65 +816,65 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 58.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 58.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 58.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 58.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 58.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 58.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 58.
-LaTeX Font Info:    Redeclaring math accent \check on input line 58.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 58.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 58.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 58.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 58.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 61.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 61.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 61.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 61.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 61.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 61.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 61.
+LaTeX Font Info:    Redeclaring math accent \check on input line 61.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 61.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 61.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 61.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 61.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 58.
+(Font)              `operators' in the math version `normal' on input line 61.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Charter(0)/m/n on input line 58.
+(Font)                  OT1/cmr/m/n --> TU/Charter(0)/m/n on input line 61.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 58.
+(Font)              `operators' in the math version `bold' on input line 61.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/m/n on input line 58.
+(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Charter(0)/m/n --> TU/Charter(0)/m/n on input line 5
-8.
+(Font)                  TU/Charter(0)/m/n --> TU/Charter(0)/m/n on input line 6
+1.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Charter(0)/m/it on input line 58.
+(Font)                  OT1/cmr/m/it --> TU/Charter(0)/m/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/b/n on input line 58.
+(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 58.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 58.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Charter(0)/m/n --> TU/Charter(0)/b/n on input line 5
-8.
+(Font)                  TU/Charter(0)/m/n --> TU/Charter(0)/b/n on input line 6
+1.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Charter(0)/b/it on input line 58.
+(Font)                  OT1/cmr/bx/it --> TU/Charter(0)/b/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 58.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 58.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 67.
+(Font)              <12> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 67.
+(Font)              <8> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 67.
+(Font)              <6> on input line 70.
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/microtype/mt-
 cmr.cfg
@@ -891,12 +921,53 @@ Underfull \hbox (badness 5022) in paragraph at lines 33--39
 []\TU/Charter(0)/m/n/10.95 Judul dari buku ini adalah “TENTANG Kecerdasan
  []
 
-)
+File: images/fotobr.jpg Graphic file (type bmp)
+<images/fotobr.jpg>
+
+Underfull \hbox (badness 3547) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 masih dikenal dengan nama
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 “(Artificial) Neural Networks”.
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 Selain itu saya juga belajar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 juga merupakan salah satu
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 “madzhab” dari AI. (Tentang
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 ini akan kita bahas panjang
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 lebar.) Demikian pula saya
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--57
+\TU/Charter(0)/m/n/10.95 juga belajar statistik yang
+ []
+
 LaTeX Font Info:    Font shape `TU/Charter(0)/m/sl' in size <10.95> not availab
 le
 (Font)              Font shape `TU/Charter(0)/m/it' tried instead on input line
- 73.
- [2]
+ 62.
+[2]) [3]
 \openout2 = `2-pendahuluan.aux'.
 
  (./2-pendahuluan.tex
@@ -911,7 +982,7 @@ Underfull \hbox (badness 1990) in paragraph at lines 13--16
 \TU/Charter(0)/m/n/10.95 laman secara efektif dalam menghadapi tantangan
  []
 
-[3
+[4
 
 
 
@@ -921,17 +992,17 @@ Underfull \hbox (badness 3769) in paragraph at lines 39--44
 \TU/Charter(0)/m/n/10.95 mainan Go sendiri seringkali dianggap lebih kompleks
  []
 
-[4]
+[5]
 Underfull \hbox (badness 1490) in paragraph at lines 54--57
 \TU/Charter(0)/m/n/10.95 angka yang terukur. Namun masih banyak perdebatan
  []
 
-[5]
+[6]
 Underfull \hbox (badness 1178) in paragraph at lines 101--109
 \TU/Charter(0)/m/n/10.95 sehingga pengembangan software dan teknologi menjadi
  []
 
-[6]) [7] [8
+[7]) [8] [9
 
 
 
@@ -949,12 +1020,12 @@ Package rerunfilecheck Info: File `0-buku-AI-BR.out' has not changed.
 (rerunfilecheck)             Checksum: 77B70F8D990C82E95D3381CCA1D14F3D;350.
  ) 
 Here is how much of TeX's memory you used:
- 17770 strings out of 468168
- 337746 string characters out of 5423555
- 867059 words of memory out of 5000000
- 46300 multiletter control sequences out of 15000+600000
+ 18139 strings out of 468168
+ 343669 string characters out of 5423555
+ 872503 words of memory out of 5000000
+ 46651 multiletter control sequences out of 15000+600000
  631949 words of font info for 80 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,11n,93p,1009b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0-buku-AI-BR.pdf (10 pages).
+Output written on 0-buku-AI-BR.pdf (11 pages).
