@@ -1,30 +1,67 @@
 \documentclass[11pt, oneside]{memoir} % 'oneside' is key for ebook layout!
+
+% Ukuran halaman harus diberitahukan juga ke memoir, bukan hanya ke geometry.
+% Sejak TeX Live 2026, driver xetex.def menyetel ukuran PDF dari \stockwidth/
+% \stockheight milik memoir (bawaannya Letter). Jika hanya geometry yang diatur,
+% halaman PDF tetap Letter dan menyisakan ruang kosong besar di kanan.
+\setstocksize{8.5in}{5.5in} % {tinggi}{lebar}
+
 \usepackage[
     paperwidth=5.5in,
     paperheight=8.5in,
     margin=0.7in,
+    right=2cm,       % sisa ruang kosong di kanan hanya 2 cm
     includefoot
 ]{geometry}
 
 % Better typography & font encoding
-\usepackage[T1]{fontenc}
-\usepackage[bahasa,indonesian]{babel} % <-- Paket untuk Bahasa Indonesia
+% Catatan: baris \usepackage[T1]{fontenc} dihapus karena tidak digunakan
+% saat kompilasi dengan XeLaTeX + fontspec.
+\usepackage[english,indonesian]{babel} % bahasa TERAKHIR = bahasa utama dokumen
 \usepackage{microtype}
+
+% --- Pemenggalan bahasa Indonesia -------------------------------------------
+% Pola bawaan TeX Live (hyph-id, 1997) terlalu longgar, sehingga bisa
+% menghasilkan pemenggalan yang salah menurut EYD, misalnya "ke-ce-r-das-an".
+% Di XeLaTeX, \lefthyphenmin/\righthyphenmin bersifat per-bahasa dan nilainya
+% mudah tertimpa saat bahasa diaktifkan, sehingga nilainya diatur tepat
+% setelah \begin{document} (lihat di bawah).
+% Daftar pengecualian: hanya titik yang ditulis yang diizinkan,
+% tanpa "-" berarti kata tersebut tidak boleh dipenggal.
+% Tambahkan kata bermasalah lain di sini jika nanti muncul.
+\hyphenation{kecer-dasan buatan pem-bela-jaran berteori}
+% -----------------------------------------------------------------------------
 
 % Block paragraphs for screen reading
 \usepackage{parskip}
 \setlength{\parskip}{1em}
 
+% Beri sedikit kelonggaran perataan agar tidak ada baris yang melewati
+% margin kanan (overfull), sehingga sisa ruang 2 cm tetap terjaga.
+\setlength{\emergencystretch}{3em}
+
 \usepackage{xcolor}
 % Clickable links and bookmarks
 \usepackage[colorlinks=true, allcolors=blue!50!black, pdfencoding=auto]{hyperref}
 
+% setup untuk buku ini
+\usepackage{fontspec}
+%\setmainfont{Bookerly}
+%\setmainfont{Merriweather}
+\setmainfont{Charter}
+
 % Author and title for PDF metadata
-\title{Perjalanan Kecerdasan Buatan: the Road of Artificial Intelligence}
+\title{Tentang Kecerdasan Buatan \\ \large About Artificial Intelligence}
 \author{Budi Rahardjo}
-\date{2025} % Remove date
+\date{2026} % Remove date
 
 \begin{document}
+
+% Perketat pemenggalan Indonesia: minimal 3 huruf sebelum dan sesudah
+% tanda pisah. Harus di sini (setelah \begin{document}) agar tidak
+% tertimpa oleh pengaturan per-bahasa babel.
+\lefthyphenmin=3
+\righthyphenmin=3
 
 \maketitle
 
@@ -36,7 +73,8 @@
 \include{1-pengantar}
 \include{2-pendahuluan}
 \backmatter
-\chapter{Afterword}
-The back matter works the same way.
+\chapter{Penutup}
+Semoga catatan saya dalam bentuk buku ini dapat memberikan pencerahan
+dan dapat dimanfaatkan sebaik-baiknya.
 
 \end{document}
