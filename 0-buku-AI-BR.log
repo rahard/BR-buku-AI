@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  9 NOV 2026 11:20
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  9 NOV 2026 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -998,8 +998,10 @@ Underfull \hbox (badness 1490) in paragraph at lines 54--57
 \TU/Charter(0)/m/n/10.95 angka yang terukur. Namun masih banyak perdebatan
  []
 
+File: images/evolusi-AI.jpg Graphic file (type bmp)
+<images/evolusi-AI.jpg>
 [6]
-Underfull \hbox (badness 1178) in paragraph at lines 101--109
+Underfull \hbox (badness 1178) in paragraph at lines 110--118
 \TU/Charter(0)/m/n/10.95 sehingga pengembangan software dan teknologi menjadi
  []
 
@@ -1034,12 +1036,12 @@ Package rerunfilecheck Info: File `0-buku-AI-BR.out' has not changed.
 (rerunfilecheck)             Checksum: 81B841004FB00E0A50846C8A50528CA5;416.
  ) 
 Here is how much of TeX's memory you used:
- 18164 strings out of 468168
- 344341 string characters out of 5423555
- 873490 words of memory out of 5000000
- 46669 multiletter control sequences out of 15000+600000
+ 18185 strings out of 468168
+ 344747 string characters out of 5423555
+ 873547 words of memory out of 5000000
+ 46689 multiletter control sequences out of 15000+600000
  631949 words of font info for 80 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
- 85i,11n,93p,1009b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,11n,93p,1009b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 0-buku-AI-BR.pdf (12 pages).
