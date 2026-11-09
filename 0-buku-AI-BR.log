@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  8 NOV 2026 10:04
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  9 NOV 2026 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,7 +730,8 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"Charter/BI/OT:language=dflt;mapping=tex-text;"
 
- (./0-buku-AI-BR.aux (./1-pengantar.aux) (./2-pendahuluan.aux))
+ (./0-buku-AI-BR.aux (./1-pengantar.aux) (./2-pendahuluan.aux)
+(./3-tatakelola.aux))
 \openout1 = `0-buku-AI-BR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -1002,7 +1003,19 @@ Underfull \hbox (badness 1178) in paragraph at lines 101--109
 \TU/Charter(0)/m/n/10.95 sehingga pengembangan software dan teknologi menjadi
  []
 
-[7]) [8] [9
+[7]) [8]
+\openout2 = `3-tatakelola.aux'.
+
+ (./3-tatakelola.tex
+Underfull \hbox (badness 2096) in paragraph at lines 11--14
+[]\TU/Charter(0)/m/n/10.95 Siapa (who) yang diperkenankan mengembangkan,
+ []
+
+) [9
+
+
+
+] [10
 
 
 
@@ -1011,21 +1024,22 @@ Underfull \hbox (badness 1178) in paragraph at lines 101--109
 \tf@toc=\write5
 \openout5 = `0-buku-AI-BR.toc'.
 
- (./0-buku-AI-BR.aux (./1-pengantar.aux) (./2-pendahuluan.aux))
+ (./0-buku-AI-BR.aux (./1-pengantar.aux) (./2-pendahuluan.aux)
+(./3-tatakelola.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `0-buku-AI-BR.out' has not changed.
-(rerunfilecheck)             Checksum: 77B70F8D990C82E95D3381CCA1D14F3D;350.
+(rerunfilecheck)             Checksum: 81B841004FB00E0A50846C8A50528CA5;416.
  ) 
 Here is how much of TeX's memory you used:
- 18139 strings out of 468168
- 343669 string characters out of 5423555
- 872503 words of memory out of 5000000
- 46651 multiletter control sequences out of 15000+600000
+ 18164 strings out of 468168
+ 344341 string characters out of 5423555
+ 873490 words of memory out of 5000000
+ 46669 multiletter control sequences out of 15000+600000
  631949 words of font info for 80 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,11n,93p,1009b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0-buku-AI-BR.pdf (11 pages).
+Output written on 0-buku-AI-BR.pdf (12 pages).
