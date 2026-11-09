@@ -4,5 +4,6 @@
 \contentsline {section}{\numberline {1.1}Apa itu Kecerdasan}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Perioda Awal: 1950-1980}{6}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Perioda: 1980-2010}{8}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Tata Kelola AI}{9}{section.1.4}%
-\contentsline {chapter}{Penutup}{10}{chapter*.6}%
+\contentsline {section}{\numberline {1.4}Perioda Awal: 2010-sekarang}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Tata Kelola AI}{12}{section.1.5}%
+\contentsline {chapter}{Penutup}{13}{chapter*.6}%

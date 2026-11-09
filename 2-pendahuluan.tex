@@ -132,5 +132,176 @@ otak bekerja'' saja. Maka orang-orang komputer berkonsultasi dengan
 dokter yang lebih memahami otak. \emph{Neuroscience}.
 Maka kita bedah otak. 
 
-(Cerita lagi?)
+Ternyata di kepala kita, otak memiliki 86 milyar neurons.
+Neuron (sel saraf) adalah sel khusus dalam sistem saraf yang berfungsi 
+menerima, mengolah, dan mengirimkan informasi melalui sinyal listrik dan kimia.
+Contoh gambar neuron dapat dilihat pada gambar~\ref{fig:neuron}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=1.0\textwidth]{images/neuron.png}
+    \caption{Simple Neuron}
+    \label{fig:neuron}
+\end{figure}
+
+Neuron memiliki sebuah inti\footnote{Dalam gambar bernomor 2} 
+dan banyak \emph{input} disebut \emph{dendrites}\footnote{Dalam gambar bernomor 1}.
+Dia memiliki keluaran yang disebut \emph{axon}\footnote{Dalam gambar nomor 3}
+yang terhubung ke \emph{dendrites} dari neuron-neuron lainnya.
+Jadi \emph{axon} ini dapat terhubung ke banyak neuron lainnya.
+
+\begin{figure}[htbp]
+  \centering
+  \resizebox{0.8\textwidth}{!}{
+\begin{tikzpicture}[
+    % Define the golden yellow color
+    gold/.style={color={rgb,255:red,245;green,205;blue,137}, fill={rgb,255:red,245;green,205;blue,137}},
+    % Define arrow style
+    thickarrow/.style={-latex, draw={rgb,255:red,245;green,205;blue,137}, line width=4.5pt, line cap=round, line join=round},
+    % Text style
+    lbl/.style={font=\sffamily\Large, text=black}
+]
+
+    % 1. Central Processing Unit (Circular Node)
+    \node[circle, fill={rgb,255:red,245;green,205;blue,137}, minimum size=4cm] (CPU) at (0,0) {};
+
+    % 2. Inputs (Left side)
+    % Arrow 1: in_1 (Top-left)
+    \draw[thickarrow] (-5.5, 2.3) -- (-1.8, 0.8) node[midway, above left=3pt, lbl] {$\text{in}_1$};
+    
+    % Arrow 2: in_2 (Middle-left, horizontal)
+    \draw[thickarrow] (-5.8, 0.1) -- (-2.0, 0.1) node[midway, above, lbl, yshift=4pt] {$\text{in}_2$};
+    
+    % Vertical dots (between in_2 and in_n)
+    \fill[gold] (-4.5, -0.6) circle (2.5pt);
+    \fill[gold] (-4.5, -0.95) circle (2.5pt);
+    \fill[gold] (-4.5, -1.3) circle (2.5pt);
+    
+    % Arrow n: in_n (Bottom-left)
+    \draw[thickarrow] (-5.2, -2.5) -- (-1.8, -0.8) node[midway, above left=1pt, lbl, xshift=-2pt, yshift=1pt] {$\text{in}_n$};
+
+    % 3. Output (Right side)
+    % Main output arrow
+    \draw[thickarrow] (2.0, 0) -- (4.3, 0);
+    \node[lbl, above] at (3.15, 0.15) {out};
+    
+    % Branch point
+    \coordinate (Branch) at (4.25, 0);
+    % Diverging Arrow 1 (Diagonal Up)
+    \draw[thickarrow] (Branch) -- (6.0, 1.8);
+    % Diverging Arrow 2 (Horizontal Right)
+    \draw[thickarrow] (Branch) -- (6.5, 0);
+    % Diverging Arrow 3 (Diagonal Down)
+    \draw[thickarrow] (Branch) -- (6.0, -1.8);
+
+\end{tikzpicture}
+}
+    \caption{Penyederhanaan Model Neuron}
+    \label{fig:neuronmodel}
+\end{figure}
+
+Neuron yang biologis tadi dapat kita sederhanakan seperti
+gambar~\ref{fig:neuronmodel}.
+Dapat dilihat bahwa ada sebuah lingkaran yang merepresentasikan
+inti dari neuron, ada banyak masukan (input) yang ditandai dengan
+$in$ dan keluaran (output) yang diberi nama $out$.
+Keluaran ini nanti bisa dihubungkan dengan neuron-neuron lainnya.
+Pertanyaannya di dalam lingkaran (inti) ada proses apa?
+Jawaban singkatnya adalah proses penjumlahan. (Detail nanti di belakang.)
+
+Neuron-neuron ini bisa kita hubungan dengan cara yang kompleks
+seperti yang terjadi di otak kita, tetapi ini menyulitkan kita untuk
+memahaminya. 
+Oleh sebab itu biasanya kita anggap neuron-neuron ini tersusun secara
+berlapis-lapis (layer) seperti dapat dilihat pada gambar~\ref{fig:3layer}.
+Pada arsitektur ini kita menggunakan tiga (3) lapisan (layer).
+Tentu saja jumlah lapisannya bisa lebih dari tiga.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=1.5cm and 2.5cm,
+    neuron/.style={circle, draw, minimum size=1.2cm, inner sep=0pt},
+    input/.style={neuron, draw=red!60!orange},
+    hidden/.style={neuron, draw=blue!60!cyan},
+    output/.style={neuron, draw=green!60!black},
+    arrow/.style={->, >=latex, shorten >=2pt, shorten <=2pt}
+]
+
+    % --- Input Layer ---
+    \node[input] (I1) {};
+    \node[input, below=of I1] (I2) {};
+    \node[input, below=of I2] (I3) {};
+
+    % --- Hidden Layer ---
+    \node[hidden, right=of I1, yshift=0.75cm] (H1) {};
+    \node[hidden, below=of H1] (H2) {};
+    \node[hidden, below=of H2] (H3) {};
+    \node[hidden, below=of H3] (H4) {};
+
+    % --- Output Layer ---
+    \node[output, right=of H2, yshift=0.375cm] (O1) {};
+    \node[output, below=of O1, yshift=-0.75cm] (O2) {};
+
+    % --- Label ---
+    \node[above=0.2cm of I1, color=red!60!orange, font=\large] {Input};
+    \node[above=0.2cm of H1, color=blue!60!cyan, font=\large] {Hidden};
+    \node[above=0.2cm of O1, color=green!60!black, font=\large] {Output};
+
+    % --- Connections: Input to Hidden ---
+    \foreach \i in {1,2,3} {
+        \foreach \h in {1,2,3,4} {
+            \draw[arrow] (I\i) -- (H\h);
+        }
+    }
+
+    % --- Connections: Hidden to Output ---
+    \foreach \h in {1,2,3,4} {
+        \foreach \o in {1,2} {
+            \draw[arrow] (H\h) -- (O\o);
+        }
+    }
+
+\end{tikzpicture}
+\caption{Diagram Jaringan Saraf Tiruan}
+\label{fig:3layer}
+\end{figure}
+
+
+Untuk sementara bahasan teknis kita hentikan dahulu.
+Nanti di belakang akan saya ajarkan bagaimana membuat neuron-neuron
+ini belajar.
+
+Pada masa ini bidang ini dikenal dengan istilah 
+\emph{Artificial Neural Netwok} (ANN).
+Ada beberapa aplikasi yang mulai membuahkan hasil dengan menggunakan
+AI dengan cara ini.
+
+Selain AI dengan pendekatan \emph{Neuroscience} seperti ini ada
+``madzhab'' AI lainnya.
+Dalam buku ``The Master Algorithm'', Pedro Domingos menguraikan ada
+lima \emph{tribes} (yang saya terjemahkan menjadi ``madzhab'').
+
+\begin{table}[htbp]
+    \centering
+    \caption{Lima Madzhab AI}
+    \label{tab:madzhab}
+    \begin{tabular}{ccc}
+        \toprule
+        \textbf{Tribe} & \textbf{Origins} & \textbf{Master Algorithm} \\
+        \midrule
+        Symbolist & Logic, philosophy & Inverse deduction \\
+        Connectionist 1 & Neuroscience & Backpropagation \\
+        Evolutionaries & Evolutionary biology & Genetic programming \\
+        Bayesian & Statistics & Probabilistic inference \\
+        Analogizers & Psychology & Kernel machines \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Pada periode ini salah satu aplikasi dari AI adalah untuk mendeteksi
+spam di email. Ini cukup sukses. Yang digunakan adalah pendekatan Bayesian.
+Namun setelah itu AI meredup kembali.
+
+\section{Perioda Awal: 2010-sekarang}
 
