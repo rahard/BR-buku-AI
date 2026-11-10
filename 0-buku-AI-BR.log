@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  9 NOV 2026 23:10
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 07:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1337,19 +1337,27 @@ Overfull \hbox (25.59253pt too wide) in paragraph at lines 289--300
  [][] 
  []
 
-) [11]
+[11])
+Underfull \hbox (badness 2326) in paragraph at lines 351--81
+[]\TU/Charter(0)/m/n/10.95 Algoritma yang digunakan untuk AI, terutama yang
+ []
+
+[12] [13]
 \openout2 = `3-tatakelola.aux'.
 
  (./3-tatakelola.tex
-Underfull \hbox (badness 2096) in paragraph at lines 11--14
+Bab 2.
+
+Underfull \hbox (badness 2096) in paragraph at lines 13--16
 []\TU/Charter(0)/m/n/10.95 Siapa (who) yang diperkenankan mengembangkan,
  []
 
-) [12
+[14
 
 
 
-] [13
+
+]) [15] [16
 
 
 
@@ -1365,15 +1373,15 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `0-buku-AI-BR.out' has not changed.
-(rerunfilecheck)             Checksum: 5C5AC1884488003149E8607EA3345099;495.
+(rerunfilecheck)             Checksum: 41BC3A3BC1AC415DCD69B3F0F99D5D56;540.
  ) 
 Here is how much of TeX's memory you used:
- 29189 strings out of 468168
- 578169 string characters out of 5423555
- 1074492 words of memory out of 5000000
- 57448 multiletter control sequences out of 15000+600000
+ 29190 strings out of 468168
+ 578180 string characters out of 5423555
+ 1074491 words of memory out of 5000000
+ 57449 multiletter control sequences out of 15000+600000
  635639 words of font info for 102 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0-buku-AI-BR.pdf (15 pages).
+Output written on 0-buku-AI-BR.pdf (18 pages).
