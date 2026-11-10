@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 16:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1363,7 +1363,12 @@ Underfull \hbox (badness 2229) in paragraph at lines 25--31
 \TU/Charter(0)/m/n/10.95 (rangkaian) AI kita sehingga menghasilkan model yang
  []
 
-) [15] [16]
+[15]
+Underfull \hbox (badness 1910) in paragraph at lines 66--78
+\TU/Charter(0)/m/n/10.95 panasnya CPU. Mungkin karena mereka sedang bekerja
+ []
+
+) [16]
 \openout2 = `3-tatakelola.aux'.
 
  (./3-tatakelola.tex
@@ -1418,7 +1423,7 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tentang-AI.out' has not changed.
-(rerunfilecheck)             Checksum: 54E28D17A54EEA9DA2791776FF733DD2;1142.
+(rerunfilecheck)             Checksum: 9C9E34BAA1B17FEA7DD7D340A7F312C5;1148.
  ) 
 Here is how much of TeX's memory you used:
  29253 strings out of 468168
