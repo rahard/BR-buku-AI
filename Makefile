@@ -1,5 +1,5 @@
 all:
-	xelatex -jobname="tentang-AI.pdf" 0-buku-AI-BR.tex
+	xelatex -jobname="tentang-AI" 0-buku-AI-BR.tex
 
 epub: *.tex
 	pandoc 0-buku-AI-BR.tex -o tentang-AI.epub --toc
