@@ -1,0 +1,44 @@
+\chapter{Permasalahan AI}
+Pada bab ini akan kita uraikan beberapa permasalahan atau tantangan AI.
+Ada masalah yang muncul karena teknologi yang tersedia saat ini masih
+terbatas atau karena pendekatan (madzhab) yang digunakan kurang cocok
+dengan permasalahan yang ingin dipecahkan.
+
+\section{Halusinasi}
+Sistem AI yang menggunakan mekanisme \emph{learning} seperti aliran
+\emph{connectionist} membutuhkan contoh data yang sangat banyak.
+Jika dataset yang digunakan kurang atau tidak ada, maka dapat terjadi 
+halusinasi.
+Mari kita ambil contoh.
+
+Katakan kita sedang membuat sebuah model AI yang ingin membedakan
+kucing dan anjing dari gambar (image).
+Maka kita kumpulkan gambar kucing dan anjing.
+Secara umum (rule of thumb) dibutuhkan 10.000 contoh gambar untuk
+masing-masing kelas. Jadi kita harus mengumpulkan 10.000 gambar kucing
+dan 10.000 gambar anjing. Kadang dengan 5000 gambar juga sudah dapat
+membedakan tetapi akurasinya masih rendah. Apalagi jika datanya kurang
+dari 5000! Hasilnya kurang bagus\footnote{Pernah kejadian ada mahasiswa
+yang akurasi dari modelnya hanya 50\%. Lah ini sih sama dengan melempar
+koin.}.
+
+Katakanlah kita sudah berhasil mengumpulkan gambar sesuai dengan kebutuhan
+tersebut. Sepuluh ribu data untuk masing-masing kelas.
+Kemudian kita \emph{training} arsitektur (rangkaian) AI kita sehingga
+menghasilkan model yang memiliki akurasi cukup baik.
+Proses training inilah yang sangat membutuhkan GPU dan super lama
+sehingga sangat mahal.
+
+Model ini kemudian kita uji dengan data pengujian (test).
+Katakan hasilnya sangat baik.
+Bagaimana jika kita uji dengan \textbf{gambar kuda}?
+Kira-kira apa hasilnya? Kucing atau anjing?
+Mesin AI itu \textbf{HARUS} menjawab.
+Karena dia hanya mengerti kucing atau anjing maka pilihannya hanya itu.
+Kemungkinan dia akan menjawab dengan anjing karena ukurannya yang besar.
+Maka dia mengalami halusinasi.
+
+Halusinasi terjadi karena mesin AI tersebut tidak dilatih dengan menggunakan
+data yang (akan) ditanyakan. Jadi dia akan menjawab dengan apa yang
+dia tahu. Dengan super percaya diri.
+Itulah sebabnya kita jangan seratus persen percaya kepada jawaban AI.
