@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 07:41
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 08:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1053,9 +1053,9 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"Charter/BI/OT:language=dflt;mapping=tex-text;"
 
- (./0-buku-AI-BR.aux (./1-pengantar.aux) (./2-pendahuluan.aux)
+ (./tentang-AI.pdf.aux (./1-pengantar.aux) (./2-pendahuluan.aux)
 (./3-masalah.aux) (./3-tatakelola.aux))
-\openout1 = `0-buku-AI-BR.aux'.
+\openout1 = `tentang-AI.pdf.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
@@ -1129,9 +1129,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: Link coloring ON on input line 65.
-(./0-buku-AI-BR.out) (./0-buku-AI-BR.out)
+(./tentang-AI.pdf.out) (./tentang-AI.pdf.out)
 \@outlinefile=\write5
-\openout5 = `0-buku-AI-BR.out'.
+\openout5 = `tentang-AI.pdf.out'.
 
 
 Package fontspec Info: 
@@ -1204,7 +1204,7 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 ) [1
 
-] (./0-buku-AI-BR.toc) [1
+] (./tentang-AI.pdf.toc) [1
 
 ]
 \openout2 = `1-pengantar.aux'.
@@ -1385,24 +1385,24 @@ Underfull \hbox (badness 2096) in paragraph at lines 11--14
 
 ]
 \tf@toc=\write6
-\openout6 = `0-buku-AI-BR.toc'.
+\openout6 = `tentang-AI.pdf.toc'.
 
- (./0-buku-AI-BR.aux (./1-pengantar.aux) (./2-pendahuluan.aux)
-(./3-masalah.aux) (./3-tatakelola.aux))
+ (./tentang-AI.pdf.aux (./1-pengantar.aux) (./2-pendahuluan.aux) (./3-masalah.a
+ux) (./3-tatakelola.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `0-buku-AI-BR.out' has not changed.
+Package rerunfilecheck Info: File `tentang-AI.pdf.out' has not changed.
 (rerunfilecheck)             Checksum: 15064EB2EC771951B2E06D4534150151;586.
  ) 
 Here is how much of TeX's memory you used:
- 29215 strings out of 468168
- 578777 string characters out of 5423555
- 1075501 words of memory out of 5000000
+ 29216 strings out of 468168
+ 578833 string characters out of 5423555
+ 1075560 words of memory out of 5000000
  57467 multiletter control sequences out of 15000+600000
  635639 words of font info for 102 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0-buku-AI-BR.pdf (20 pages).
+Output written on tentang-AI.pdf.pdf (20 pages).
