@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 21:03
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,6 +1207,11 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ] (./tentang-AI.toc) [1
 
 ]
+LaTeX Font Info:    Font shape `TU/Charter(0)/m/sl' in size <10.95> not availab
+le
+(Font)              Font shape `TU/Charter(0)/m/it' tried instead on input line
+ 79.
+ [2]
 \openout2 = `1-pengantar.aux'.
 
  (./1-pengantar.tex
@@ -1277,10 +1282,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--63
 \TU/Charter(0)/m/n/10.95 juga belajar statistik yang
  []
 
-LaTeX Font Info:    Font shape `TU/Charter(0)/m/sl' in size <10.95> not availab
-le
-(Font)              Font shape `TU/Charter(0)/m/it' tried instead on input line
- 63.
 [2]) [3]
 \openout2 = `2-pendahuluan.aux'.
 
@@ -1364,11 +1365,16 @@ Underfull \hbox (badness 2229) in paragraph at lines 25--31
  []
 
 [15]
-Underfull \hbox (badness 1910) in paragraph at lines 66--78
+Underfull \hbox (badness 1990) in paragraph at lines 64--67
+[]\TU/Charter(0)/m/n/10.95 Untuk mengurangi ketidakjelasan tersebut maka ada
+ []
+
+[16]
+Underfull \hbox (badness 1910) in paragraph at lines 94--106
 \TU/Charter(0)/m/n/10.95 panasnya CPU. Mungkin karena mereka sedang bekerja
  []
 
-) [16]
+) [17]
 \openout2 = `3-tatakelola.aux'.
 
  (./3-tatakelola.tex
@@ -1378,12 +1384,12 @@ Underfull \hbox (badness 2096) in paragraph at lines 11--14
 []\TU/Charter(0)/m/n/10.95 Siapa (who) yang diperkenankan mengembangkan,
  []
 
-[17
+[18
 
 
 
 
-]) [18]
+]) [19]
 \openout2 = `5-security.aux'.
 
  (./5-security.tex
@@ -1398,19 +1404,19 @@ Underfull \hbox (badness 1661) in paragraph at lines 10--12
 \TU/Charter(0)/m/n/10.95 Salah satu yang nampak mulai banyak aplikasinya ada-
  []
 
-) [19
+) [20
 
 
 
 
-] (./tentang-AI.bbl [20
+] (./tentang-AI.bbl [21
 
 
 
 
 ]
 bibitemlist
-) [21
+) [22
 
 ]
 \tf@toc=\write6
@@ -1423,15 +1429,15 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tentang-AI.out' has not changed.
-(rerunfilecheck)             Checksum: EE2B88D2D814612687AD008C9A826A5B;1228.
+(rerunfilecheck)             Checksum: 68E434631D789778287B1C7901B10643;1393.
  ) 
 Here is how much of TeX's memory you used:
- 29253 strings out of 468168
- 579639 string characters out of 5423555
- 1076599 words of memory out of 5000000
- 57494 multiletter control sequences out of 15000+600000
+ 29254 strings out of 468168
+ 579650 string characters out of 5423555
+ 1076621 words of memory out of 5000000
+ 57495 multiletter control sequences out of 15000+600000
  635639 words of font info for 102 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on tentang-AI.pdf (23 pages).
+Output written on tentang-AI.pdf (25 pages).
