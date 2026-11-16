@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  10 NOV 2026 21:20
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  16 NOV 2026 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,36 +1314,40 @@ Underfull \hbox (badness 1490) in paragraph at lines 54--57
 
 File: images/evolusi-AI.jpg Graphic file (type bmp)
 <images/evolusi-AI.jpg>
-[6]
-Underfull \hbox (badness 1178) in paragraph at lines 113--121
+
+Underfull \hbox (badness 4505) in paragraph at lines 72--82
+\TU/Charter(0)/m/n/10.95 oleh Marvin Minsky, Nathaniel Rochester, dan Claude
+ []
+
+[6] [7]
+Underfull \hbox (badness 1178) in paragraph at lines 117--125
 \TU/Charter(0)/m/n/10.95 sehingga pengembangan software dan teknologi menjadi
  []
 
-[7]
+[8]
 File: images/neuron.png Graphic file (type bmp)
 <images/neuron.png>
- [8]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1642) in paragraph at lines 206--214
+Underfull \hbox (badness 1642) in paragraph at lines 210--218
 \TU/Charter(0)/m/n/10.95 (input) yang ditandai dengan $\OML/cmm/m/it/10.95 in$ 
 \TU/Charter(0)/m/n/10.95 dan keluaran (output)
  []
 
 [9] [10]
-Overfull \hbox (25.59253pt too wide) in paragraph at lines 292--303
+Overfull \hbox (25.59253pt too wide) in paragraph at lines 296--307
  [][] 
  []
 
-[11]
-Underfull \hbox (badness 2326) in paragraph at lines 354--360
+[11] [12]
+Underfull \hbox (badness 2326) in paragraph at lines 358--364
 []\TU/Charter(0)/m/n/10.95 Algoritma yang digunakan untuk AI, terutama yang
  []
 
-[12]) [13]
+) [13]
 \openout2 = `3-masalah.aux'.
 
  (./3-masalah.tex
@@ -1429,13 +1433,13 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tentang-AI.out' has not changed.
-(rerunfilecheck)             Checksum: 68E434631D789778287B1C7901B10643;1393.
+(rerunfilecheck)             Checksum: A3C020332B4B434C8965283CD7D8E3A8;1392.
  ) 
 Here is how much of TeX's memory you used:
- 29254 strings out of 468168
- 579650 string characters out of 5423555
- 1076621 words of memory out of 5000000
- 57495 multiletter control sequences out of 15000+600000
+ 29255 strings out of 468168
+ 579667 string characters out of 5423555
+ 1077658 words of memory out of 5000000
+ 57496 multiletter control sequences out of 15000+600000
  635639 words of font info for 102 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
