@@ -19,6 +19,6 @@
 \contentsline {chapter}{\chapternumberline {4}AI dan Cybersecurity}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}AI untuk penetration testing}{21}{section.4.1}%
 \contentsline {subsection}{Recon}{23}{section*.5}%
-\contentsline {section}{\numberline {4.2}Malware Detection}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Malware Detection}{24}{section.4.2}%
 \contentsline {chapter}{Epilog}{25}{chapter*.7}%
 \contentsline {chapter}{Bibliografi}{26}{chapter*.9}%

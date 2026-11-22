@@ -73,11 +73,37 @@ mesin itu: port apa saja yang terbuka, apa sistem operasinya
 server apa yang digunakan untuk memberikan layanan.
 Untuk pentest yang sudah terbiasa dengan proses ini biasanya menggunakan
 program \emph{nmap}.
+\begin{verbatim}
+nmap 10.10.10.10
+\end{verbatim}
+Ada beberapa \emph{flag} yang dapat digunakan dengan program nmap ini.
+Ini bergantung kepada situasi yang biasanya dikenali oleh seorang
+pentester yang berpengalaman.
+
 Adanya AI proses ini dapat dipermudah dengan memberikan perintah
 seperti misalnya:
 \begin{verbatim}
 Cari port yang terbuka dari IP 10.10.10.10
 \end{verbatim}
+Mesin AI akan mencari cara terbaik untuk mencari tahu port yang terbuka
+pada mesin target di nomor IP tersebut.
+Jika dia menemukan tools nmap maka dia akan menggunakan tools tersebut.
+Jika tidak menemukan, maka dia akan menggunakan tools lain seperti
+netcat atau bahkan membuat tools sendiri!
+
+Jika kita malas maka kita bahkan dapat memberikan perintah seperti
+\begin{verbatim}
+Recon IP 10.10.10.10
+\end{verbatim}
+Cara ini agak sedikit ``liar'' dan tidak terprediksi.
+Padahal sesungguhnya kita ingin dia lebih deterministik.
+Cara ini mungkin bermanfaat jika kita melakukan blackbox
+sebagai info awal.
+
+Pada tahap recon seperti ini biasanya selain port terbuka yang dicari
+juga sekalian dicari aplikasi (server) apa yang memberikan layanan tersebut.
+Proses ini biasanya disebut \emph{banner grabbing} karena dia mencoba
+menangkap banner yang biasanya ditampilkan oleh server.
 
 \section{Malware Detection}
 Sudah ada beberapa penelitian terkait dengan pemanfaatan AI - dalam hal ini
