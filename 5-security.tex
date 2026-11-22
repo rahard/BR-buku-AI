@@ -4,11 +4,80 @@ Demikian pula bidang \emph{security} (keamanan).
 Lengkap dengan positif dan negatifnya.
 AI dapat digunakan untuk menyerang (attack)
 dan juga untuk bertahan (defense).
+Beberapa contoh aplikasi AI di bidang keamanan antara lain:
+\begin{itemize}
+\item Penetration testing;
+\item Software security testing;
+\item Malware detection.
+\end{itemize}
 
 
 \section{AI untuk penetration testing}
 Salah satu yang nampak mulai banyak aplikasinya adalah pemanfaatan AI
-untuk melakukan penetration testing (pentest).
+untuk melakukan \emph{penetration testing} (pentest).
+Bahkan ada model-model AI yang dibuat spesifik untuk kebutuhan ini.
+
+Penetration testing pada awalnya dipopulerkan oleh makalah dari
+Dan Farmer dan Wietse Vennema. (Link makalah.)
+Sebelum ini Dan Farmer dikenal dengan karyanya yang berjudul ``SATAN''.
+Sementara itu Wietse Vennema dikenal dengan Postfix, sebuah MTA
+yang banyak digunakan di internet.
+Pentest banyak digunakan meskipun secara engineering dia kurang bagus.
+
+Workflow atau metodologi dari pentest mengikuti urutan yang disarankan 
+oleh buku ``Hacking Exposed''. Tentu saja ada berbagai workflow lainnya
+tetapi intinya tetap sama.
+
+\begin{itemize}
+\item reconnaissance (recon);
+\item enumeration;
+\item exploitation;
+\item priviledge escalation;
+\item reporting.
+\end{itemize}
+
+Pentest ini dapat dilakukan dengan tiga cara:
+\begin{itemize}
+\item blackbox (non-user);
+\item greybox (valid user);
+\item whitebox (developer);
+\end{itemize}
+
+Blackbox melakukan simulasi non-user. Artinya orang yang seharusnya tidak
+memiliki akses kepada sistem kita. Apa saja yang dapat diperoleh oleh
+non-user ini?
+Meskipun dia seharusnya tidak diberikan informasi sama sekali, tetapi
+pada proses pentest resmi biasanya penguji diberi informasi terbatas
+seperti nomor IP atau nama domain. Ini dilakukan agar pengujian tidak
+meleber kemana-mana.
+
+Greybox melakukan simulasi valid user. Artinya dia adalah pengguna resmi di
+sistem. Masalahnya apakah dia dapat melihat data dari pengguna lain
+atau bahkan dapat melakukan transaksi atas nama pengguna lain tersebut.
+Pada pentest greybox, pengguji diberi sebuah atau beberapa akun valid.
+
+Whitebox melakukan simulasi orang yang sangat mengetahui sistem, misalnya
+pengembang atau pemilik sistem. Apakah mereka dapat mengetahu data pengguna
+dan dapat melakukan transaksi fiktif (fraud) berdasarkan akses tersebut.
+Seharusnya tidak bisa.
+
+\subsection{Recon}
+Sebelum memulai pentest biasanya kita melakukan pemetaan terhadap target.
+Ini dilakukan agar proses pentest efektif.
+Proses ini dapat dimulai berdasarkan informasi awal yang diberikan kepada
+kita, misalnya nomor IP atau nama domain.
+
+Jika diberikan nomor IP, maka kita mulai dengan mencari tahu tentang
+mesin itu: port apa saja yang terbuka, apa sistem operasinya
+(operating system / OS), dan informasi lainnya seperti aplikasi atau
+server apa yang digunakan untuk memberikan layanan.
+Untuk pentest yang sudah terbiasa dengan proses ini biasanya menggunakan
+program \emph{nmap}.
+Adanya AI proses ini dapat dipermudah dengan memberikan perintah
+seperti misalnya:
+\begin{verbatim}
+Cari port yang terbuka dari IP 10.10.10.10
+\end{verbatim}
 
 \section{Malware Detection}
 Sudah ada beberapa penelitian terkait dengan pemanfaatan AI - dalam hal ini

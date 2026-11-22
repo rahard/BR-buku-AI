@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  16 NOV 2026 18:00
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  22 NOV 2026 07:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1347,12 +1347,12 @@ Underfull \hbox (badness 2326) in paragraph at lines 358--364
 []\TU/Charter(0)/m/n/10.95 Algoritma yang digunakan untuk AI, terutama yang
  []
 
-) [13]
+[13]) [14]
 \openout2 = `3-masalah.aux'.
 
  (./3-masalah.tex
 Bab 2.
-[14
+[15
 
 
 
@@ -1368,17 +1368,17 @@ Underfull \hbox (badness 2229) in paragraph at lines 25--31
 \TU/Charter(0)/m/n/10.95 (rangkaian) AI kita sehingga menghasilkan model yang
  []
 
-[15]
+[16]
 Underfull \hbox (badness 1990) in paragraph at lines 64--67
 []\TU/Charter(0)/m/n/10.95 Untuk mengurangi ketidakjelasan tersebut maka ada
  []
 
-[16]
+[17]
 Underfull \hbox (badness 1910) in paragraph at lines 94--106
 \TU/Charter(0)/m/n/10.95 panasnya CPU. Mungkin karena mereka sedang bekerja
  []
 
-) [17]
+) [18]
 \openout2 = `3-tatakelola.aux'.
 
  (./3-tatakelola.tex
@@ -1388,39 +1388,54 @@ Underfull \hbox (badness 2096) in paragraph at lines 11--14
 []\TU/Charter(0)/m/n/10.95 Siapa (who) yang diperkenankan mengembangkan,
  []
 
-[18
+[19
 
 
 
 
-]) [19]
+]) [20]
 \openout2 = `5-security.aux'.
 
  (./5-security.tex
 Bab 4.
 
-Underfull \hbox (badness 1527) in paragraph at lines 2--7
-\TU/Charter(0)/m/n/10.95 dan negatifnya. AI dapat digunakan untuk menyerang
+Underfull \hbox (badness 3049) in paragraph at lines 20--26
+[]\TU/Charter(0)/m/n/10.95 Penetration testing pada awalnya dipopulerkan oleh
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 10--12
-\TU/Charter(0)/m/n/10.95 Salah satu yang nampak mulai banyak aplikasinya ada-
+Underfull \hbox (badness 1484) in paragraph at lines 20--26
+\TU/Charter(0)/m/n/10.95 makalah dari Dan Farmer dan Wietse Vennema. (Link
  []
 
-) [20
+
+Underfull \hbox (badness 2103) in paragraph at lines 20--26
+\TU/Charter(0)/m/n/10.95 yang berjudul “SATAN”. Sementara itu Wietse Vennema
+ []
+
+[21
 
 
 
 
-] (./tentang-AI.bbl [21
+]
+Underfull \hbox (badness 1097) in paragraph at lines 54--58
+[]\TU/Charter(0)/m/n/10.95 Greybox melakukan simulasi valid user. Artinya dia
+ []
+
+[22]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) [23] [24] (./tentang-AI.bbl [25
 
 
 
 
 ]
 bibitemlist
-) [22
+) [26
 
 ]
 \tf@toc=\write6
@@ -1433,15 +1448,15 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tentang-AI.out' has not changed.
-(rerunfilecheck)             Checksum: A3C020332B4B434C8965283CD7D8E3A8;1392.
+(rerunfilecheck)             Checksum: 4AA559FBB1CE919FEC6D914BDA33C260;1458.
  ) 
 Here is how much of TeX's memory you used:
- 29255 strings out of 468168
- 579667 string characters out of 5423555
- 1077658 words of memory out of 5000000
- 57496 multiletter control sequences out of 15000+600000
- 635639 words of font info for 102 fonts, out of 8000000 for 9000
+ 29268 strings out of 468168
+ 579969 string characters out of 5423555
+ 1077657 words of memory out of 5000000
+ 57506 multiletter control sequences out of 15000+600000
+ 635655 words of font info for 104 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on tentang-AI.pdf (25 pages).
+Output written on tentang-AI.pdf (29 pages).
