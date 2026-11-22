@@ -14,6 +14,8 @@
     includefoot
 ]{geometry}
 
+\usepackage{makeidx}
+\makeindex
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{amsmath}
@@ -57,7 +59,7 @@
 \setmainfont{Charter}
 
 % Author and title for PDF metadata
-\title{Tentang Kecerdasan Buatan \\ \large About Artificial Intelligence\\v.0.1alpha}
+\title{Tentang Kecerdasan Buatan \\ \large About Artificial Intelligence\\v.0.2}
 \author{Budi Rahardjo\\https://github.com/rahard/BR-buku-AI\\https://saweria.co/rahard}
 %%\author{Budi Rahardjo\\https://github.com/rahard/BR-buku-AI}
 \date{2026} % Remove date
@@ -71,6 +73,7 @@
 \righthyphenmin=3
 
 \maketitle
+\thispagestyle{empty}
 
 \frontmatter
 \tableofcontents
@@ -92,4 +95,6 @@ komentar di repository github ini.
 
 \bibliographystyle{plain}        % atau: apalike, ieeetr, unsrt, dll.
 \bibliography{references} 
+
+\printindex
 \end{document}

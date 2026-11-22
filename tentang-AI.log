@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  22 NOV 2026 07:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  22 NOV 2026 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,6 +428,12 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen256
 \Gm@dimlist=\toks25
 )
+\tentang-AI@idxfile=\write4
+\openout4 = `tentang-AI.idx'.
+
+
+Writing index file tentang-AI.idx 
+
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
 hicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -574,7 +580,7 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yc=\dimen279
 \pgf@xd=\dimen280
 \pgf@yd=\dimen281
-\w@pgf@writea=\write4
+\w@pgf@writea=\write5
 \r@pgf@reada=\read3
 \c@pgf@counta=\count349
 \c@pgf@countb=\count350
@@ -1057,26 +1063,26 @@ Package fontspec Info:
 (./3-masalah.aux) (./3-tatakelola.aux) (./5-security.aux))
 \openout1 = `tentang-AI.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1112,13 +1118,13 @@ LaTeX Font Info:    ... okay on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 65.
-Package microtype Info: Applying patch `item' on input line 65.
-Package microtype Info: Applying patch `toc' on input line 65.
-Package microtype Info: Applying patch `eqnum' on input line 65.
-Package microtype Info: Applying patch `footnote' on input line 65.
-Package microtype Info: Applying patch `verbatim' on input line 65.
-LaTeX Info: Redefining \microtypesetup on input line 65.
+LaTeX Info: Redefining \microtypecontext on input line 67.
+Package microtype Info: Applying patch `item' on input line 67.
+Package microtype Info: Applying patch `toc' on input line 67.
+Package microtype Info: Applying patch `eqnum' on input line 67.
+Package microtype Info: Applying patch `footnote' on input line 67.
+Package microtype Info: Applying patch `verbatim' on input line 67.
+LaTeX Info: Redefining \microtypesetup on input line 67.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1128,10 +1134,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Charter' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 65.
+Package hyperref Info: Link coloring ON on input line 67.
 (./tentang-AI.out) (./tentang-AI.out)
-\@outlinefile=\write5
-\openout5 = `tentang-AI.out'.
+\@outlinefile=\write6
+\openout6 = `tentang-AI.out'.
 
 
 Package fontspec Info: 
@@ -1140,58 +1146,58 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 65.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 65.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 65.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 65.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 65.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 65.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 65.
-LaTeX Font Info:    Redeclaring math accent \check on input line 65.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 65.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 65.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 65.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 67.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 67.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 67.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 67.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 67.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 67.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 67.
+LaTeX Font Info:    Redeclaring math accent \check on input line 67.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 67.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 67.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 67.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 65.
+(Font)              `operators' in the math version `normal' on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Charter(0)/m/n on input line 65.
+(Font)                  OT1/cmr/m/n --> TU/Charter(0)/m/n on input line 67.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 65.
+(Font)              `operators' in the math version `bold' on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/m/n on input line 65.
+(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/m/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/Charter(0)/m/n --> TU/Charter(0)/m/n on input line 6
-5.
+7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Charter(0)/m/it on input line 65.
+(Font)                  OT1/cmr/m/it --> TU/Charter(0)/m/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/b/n on input line 65.
+(Font)                  OT1/cmr/bx/n --> TU/Charter(0)/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 65.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 65.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/Charter(0)/m/n --> TU/Charter(0)/b/n on input line 6
-5.
+7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Charter(0)/b/it on input line 65.
+(Font)                  OT1/cmr/bx/it --> TU/Charter(0)/b/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 65.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 65.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 67.
 
 (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/microtype/mt-
 cmr.cfg
@@ -1204,31 +1210,19 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 ) [1
 
-] (./tentang-AI.toc) [1
+] (./tentang-AI.toc [1
 
-]
+])
 LaTeX Font Info:    Font shape `TU/Charter(0)/m/sl' in size <10.95> not availab
 le
 (Font)              Font shape `TU/Charter(0)/m/it' tried instead on input line
- 79.
+ 82.
  [2]
 \openout2 = `1-pengantar.aux'.
 
  (./1-pengantar.tex
-Underfull \hbox (badness 3657) in paragraph at lines 11--17
+Underfull \hbox (badness 3657) in paragraph at lines 22--28
 \TU/Charter(0)/m/n/10.95 mungkin sudah berubah pada saat Anda membacanya.
- []
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 18--28
-\TU/Charter(0)/m/n/10.95 dasan Buatan” sebagai terjemahan dari “Artificial Inte
-lli-
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 18--28
-\TU/Charter(0)/m/n/10.95 dibahas lebih banyak lagi. Nanti jika sudah lebih lega
-
  []
 
 [1
@@ -1236,53 +1230,65 @@ Underfull \hbox (badness 1122) in paragraph at lines 18--28
 
 
 ]
-Underfull \hbox (badness 5022) in paragraph at lines 39--45
+Underfull \hbox (badness 1596) in paragraph at lines 29--39
+\TU/Charter(0)/m/n/10.95 dasan Buatan” sebagai terjemahan dari “Artificial Inte
+lli-
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 29--39
+\TU/Charter(0)/m/n/10.95 dibahas lebih banyak lagi. Nanti jika sudah lebih lega
+
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 50--56
 []\TU/Charter(0)/m/n/10.95 Judul dari buku ini adalah “TENTANG Kecerdasan
  []
 
 File: images/fotobr.jpg Graphic file (type bmp)
 <images/fotobr.jpg>
-
-Underfull \hbox (badness 3547) in paragraph at lines 53--63
+[2]
+Underfull \hbox (badness 3547) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 masih dikenal dengan nama
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 53--63
+Underfull \hbox (badness 1297) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 “(Artificial) Neural Networks”.
  []
 
 
-Underfull \hbox (badness 4291) in paragraph at lines 53--63
+Underfull \hbox (badness 4291) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 Selain itu saya juga belajar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 juga merupakan salah satu
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 53--63
+Underfull \hbox (badness 2744) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 “madzhab” dari AI. (Tentang
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 53--63
+Underfull \hbox (badness 2717) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 ini akan kita bahas panjang
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 53--63
+Underfull \hbox (badness 2189) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 lebar.) Demikian pula saya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--74
 \TU/Charter(0)/m/n/10.95 juga belajar statistik yang
  []
 
-[2]) [3]
+) [3]
 \openout2 = `2-pendahuluan.aux'.
 
  (./2-pendahuluan.tex
@@ -1343,16 +1349,21 @@ Overfull \hbox (25.59253pt too wide) in paragraph at lines 296--307
  []
 
 [11] [12]
-Underfull \hbox (badness 2326) in paragraph at lines 358--364
+File: images/cpu-gpu-grey.png Graphic file (type bmp)
+<images/cpu-gpu-grey.png>
+
+Underfull \hbox (badness 2326) in paragraph at lines 368--374
 []\TU/Charter(0)/m/n/10.95 Algoritma yang digunakan untuk AI, terutama yang
  []
 
-[13]) [14]
+File: images/saham-nvidia.jpg Graphic file (type bmp)
+<images/saham-nvidia.jpg>
+[13] [14]) [15]
 \openout2 = `3-masalah.aux'.
 
  (./3-masalah.tex
 Bab 2.
-[15
+[16
 
 
 
@@ -1368,17 +1379,17 @@ Underfull \hbox (badness 2229) in paragraph at lines 25--31
 \TU/Charter(0)/m/n/10.95 (rangkaian) AI kita sehingga menghasilkan model yang
  []
 
-[16]
+[17]
 Underfull \hbox (badness 1990) in paragraph at lines 64--67
 []\TU/Charter(0)/m/n/10.95 Untuk mengurangi ketidakjelasan tersebut maka ada
  []
 
-[17]
+[18]
 Underfull \hbox (badness 1910) in paragraph at lines 94--106
 \TU/Charter(0)/m/n/10.95 panasnya CPU. Mungkin karena mereka sedang bekerja
  []
 
-) [18]
+) [19]
 \openout2 = `3-tatakelola.aux'.
 
  (./3-tatakelola.tex
@@ -1388,75 +1399,75 @@ Underfull \hbox (badness 2096) in paragraph at lines 11--14
 []\TU/Charter(0)/m/n/10.95 Siapa (who) yang diperkenankan mengembangkan,
  []
 
-[19
+[20
 
 
 
 
-]) [20]
+]) [21]
 \openout2 = `5-security.aux'.
 
  (./5-security.tex
 Bab 4.
 
-Underfull \hbox (badness 3049) in paragraph at lines 20--26
+Underfull \hbox (badness 3049) in paragraph at lines 20--29
 []\TU/Charter(0)/m/n/10.95 Penetration testing pada awalnya dipopulerkan oleh
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 20--26
-\TU/Charter(0)/m/n/10.95 makalah dari Dan Farmer dan Wietse Vennema. (Link
+Underfull \hbox (badness 1331) in paragraph at lines 20--29
+\TU/Charter(0)/m/n/10.95 Sebelum ini Dan Farmer dikenal dengan karyanya yang
  []
 
-
-Underfull \hbox (badness 2103) in paragraph at lines 20--26
-\TU/Charter(0)/m/n/10.95 yang berjudul “SATAN”. Sementara itu Wietse Vennema
- []
-
-[21
+[22
 
 
 
 
 ]
-Underfull \hbox (badness 1097) in paragraph at lines 54--58
+Underfull \hbox (badness 1097) in paragraph at lines 57--61
 []\TU/Charter(0)/m/n/10.95 Greybox melakukan simulasi valid user. Artinya dia
  []
 
-[22]
+[23]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [23]) [24] (./tentang-AI.bbl [25
+ [24]) [25] (./tentang-AI.bbl [26
 
 
 
 
 ]
 bibitemlist
-) [26
+) (./tentang-AI.ind [27
 
-]
-\tf@toc=\write6
-\openout6 = `tentang-AI.toc'.
+] [28
 
- (./tentang-AI.aux (./1-pengantar.aux) (./2-pendahuluan.aux)
-(./3-masalah.aux) (./3-tatakelola.aux) (./5-security.aux))
+
+
+])
+\tf@toc=\write7
+\openout7 = `tentang-AI.toc'.
+
+ (./tentang-AI.aux (./1-pengantar.aux)
+(./2-pendahuluan.aux) (./3-masalah.aux) (./3-tatakelola.aux) (./5-security.aux)
+)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tentang-AI.out' has not changed.
-(rerunfilecheck)             Checksum: 4AA559FBB1CE919FEC6D914BDA33C260;1458.
+(rerunfilecheck)             Checksum: 705D83142C8501EAF55AC22AA330EA59;1502.
  ) 
 Here is how much of TeX's memory you used:
- 29268 strings out of 468168
- 579969 string characters out of 5423555
- 1077657 words of memory out of 5000000
- 57506 multiletter control sequences out of 15000+600000
+ 29307 strings out of 468168
+ 580831 string characters out of 5423555
+ 1077779 words of memory out of 5000000
+ 57539 multiletter control sequences out of 15000+600000
  635655 words of font info for 104 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on tentang-AI.pdf (29 pages).
+Output written on tentang-AI.pdf (31 pages).
