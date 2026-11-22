@@ -8,44 +8,44 @@ A level-1 auxiliary file: 3-tatakelola.aux
 A level-1 auxiliary file: 5-security.aux
 The style file: plain.bst
 Database file #1: references.bib
-You've used 3 entries,
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            519 strings with 4520 characters,
-and the built_in function-call counts, 713 in all, are:
-= -- 65
-> -- 27
+            524 strings with 4610 characters,
+and the built_in function-call counts, 928 in all, are:
+= -- 84
+> -- 34
 < -- 0
-+ -- 12
-- -- 8
-* -- 30
-:= -- 130
-add.period$ -- 10
-call.type$ -- 3
-change.case$ -- 11
++ -- 15
+- -- 10
+* -- 38
+:= -- 168
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 31
-empty$ -- 67
-format.name$ -- 8
-if$ -- 150
+cite$ -- 4
+duplicate$ -- 43
+empty$ -- 89
+format.name$ -- 10
+if$ -- 196
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 19
-num.names$ -- 6
-pop$ -- 22
+int.to.str$ -- 4
+missing$ -- 6
+newline$ -- 24
+num.names$ -- 8
+pop$ -- 30
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 13
 quote$ -- 0
-skip$ -- 20
+skip$ -- 26
 stack$ -- 0
-substring$ -- 16
-swap$ -- 3
+substring$ -- 21
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 10
 warning$ -- 0
-while$ -- 6
-width$ -- 4
-write$ -- 36
+while$ -- 8
+width$ -- 5
+write$ -- 46

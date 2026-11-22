@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  22 NOV 2026 12:41
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  22 NOV 2026 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,7 +1221,12 @@ le
 \openout2 = `1-pengantar.aux'.
 
  (./1-pengantar.tex
-Underfull \hbox (badness 3657) in paragraph at lines 22--28
+Bab 1.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 64--70
 \TU/Charter(0)/m/n/10.95 mungkin sudah berubah pada saat Anda membacanya.
  []
 
@@ -1230,69 +1235,69 @@ Underfull \hbox (badness 3657) in paragraph at lines 22--28
 
 
 ]
-Underfull \hbox (badness 1596) in paragraph at lines 29--39
+Underfull \hbox (badness 1596) in paragraph at lines 72--82
 \TU/Charter(0)/m/n/10.95 dasan Buatan” sebagai terjemahan dari “Artificial Inte
 lli-
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 29--39
+Underfull \hbox (badness 1122) in paragraph at lines 72--82
 \TU/Charter(0)/m/n/10.95 dibahas lebih banyak lagi. Nanti jika sudah lebih lega
 
  []
 
-
-Underfull \hbox (badness 5022) in paragraph at lines 50--56
+[2]
+Underfull \hbox (badness 5022) in paragraph at lines 93--99
 []\TU/Charter(0)/m/n/10.95 Judul dari buku ini adalah “TENTANG Kecerdasan
  []
 
 File: images/fotobr.jpg Graphic file (type bmp)
 <images/fotobr.jpg>
-[2]
-Underfull \hbox (badness 3547) in paragraph at lines 64--74
+
+Underfull \hbox (badness 3547) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 masih dikenal dengan nama
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 64--74
+Underfull \hbox (badness 1297) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 “(Artificial) Neural Networks”.
  []
 
 
-Underfull \hbox (badness 4291) in paragraph at lines 64--74
+Underfull \hbox (badness 4291) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 Selain itu saya juga belajar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--74
+Underfull \hbox (badness 10000) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 juga merupakan salah satu
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 64--74
+Underfull \hbox (badness 2744) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 “madzhab” dari AI. (Tentang
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 64--74
+Underfull \hbox (badness 2717) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 ini akan kita bahas panjang
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 64--74
+Underfull \hbox (badness 2189) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 lebar.) Demikian pula saya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--74
+Underfull \hbox (badness 10000) in paragraph at lines 107--117
 \TU/Charter(0)/m/n/10.95 juga belajar statistik yang
  []
 
-) [3]
+[3]) [4]
 \openout2 = `2-pendahuluan.aux'.
 
  (./2-pendahuluan.tex
-Bab 1.
+Bab 2.
 
 Underfull \hbox (badness 1796) in paragraph at lines 13--16
 \TU/Charter(0)/m/n/10.95 baru, serta menggunakan pengetahuan dan penga-
@@ -1303,7 +1308,7 @@ Underfull \hbox (badness 1990) in paragraph at lines 13--16
 \TU/Charter(0)/m/n/10.95 laman secara efektif dalam menghadapi tantangan
  []
 
-[4
+[5
 
 
 
@@ -1313,7 +1318,7 @@ Underfull \hbox (badness 3769) in paragraph at lines 39--44
 \TU/Charter(0)/m/n/10.95 mainan Go sendiri seringkali dianggap lebih kompleks
  []
 
-[5]
+[6]
 Underfull \hbox (badness 1490) in paragraph at lines 54--57
 \TU/Charter(0)/m/n/10.95 angka yang terukur. Namun masih banyak perdebatan
  []
@@ -1325,12 +1330,12 @@ Underfull \hbox (badness 4505) in paragraph at lines 72--82
 \TU/Charter(0)/m/n/10.95 oleh Marvin Minsky, Nathaniel Rochester, dan Claude
  []
 
-[6] [7]
+[7] [8]
 Underfull \hbox (badness 1178) in paragraph at lines 117--125
 \TU/Charter(0)/m/n/10.95 sehingga pengembangan software dan teknologi menjadi
  []
 
-[8]
+[9]
 File: images/neuron.png Graphic file (type bmp)
 <images/neuron.png>
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1343,12 +1348,12 @@ Underfull \hbox (badness 1642) in paragraph at lines 210--218
 \TU/Charter(0)/m/n/10.95 dan keluaran (output)
  []
 
-[9] [10]
+[10] [11]
 Overfull \hbox (25.59253pt too wide) in paragraph at lines 296--307
  [][] 
  []
 
-[11] [12]
+[12] [13]
 File: images/cpu-gpu-grey.png Graphic file (type bmp)
 <images/cpu-gpu-grey.png>
 
@@ -1358,12 +1363,12 @@ Underfull \hbox (badness 2326) in paragraph at lines 368--374
 
 File: images/saham-nvidia.jpg Graphic file (type bmp)
 <images/saham-nvidia.jpg>
-[13] [14]) [15]
+[14] [15]) [16]
 \openout2 = `3-masalah.aux'.
 
  (./3-masalah.tex
-Bab 2.
-[16
+Bab 3.
+[17
 
 
 
@@ -1379,71 +1384,76 @@ Underfull \hbox (badness 2229) in paragraph at lines 25--31
 \TU/Charter(0)/m/n/10.95 (rangkaian) AI kita sehingga menghasilkan model yang
  []
 
-[17]
+[18]
 Underfull \hbox (badness 1990) in paragraph at lines 64--67
 []\TU/Charter(0)/m/n/10.95 Untuk mengurangi ketidakjelasan tersebut maka ada
  []
 
-[18]
+[19]
 Underfull \hbox (badness 1910) in paragraph at lines 94--106
 \TU/Charter(0)/m/n/10.95 panasnya CPU. Mungkin karena mereka sedang bekerja
  []
 
-) [19]
+) [20]
 \openout2 = `3-tatakelola.aux'.
 
  (./3-tatakelola.tex
-Bab 3.
+Bab 4.
 
 Underfull \hbox (badness 2096) in paragraph at lines 11--14
 []\TU/Charter(0)/m/n/10.95 Siapa (who) yang diperkenankan mengembangkan,
  []
 
-[20
+[21
 
 
 
 
-]) [21]
+]) [22]
 \openout2 = `5-security.aux'.
 
  (./5-security.tex
-Bab 4.
+Bab 5.
 
-Underfull \hbox (badness 3049) in paragraph at lines 20--29
-[]\TU/Charter(0)/m/n/10.95 Penetration testing pada awalnya dipopulerkan oleh
+Underfull \hbox (badness 1975) in paragraph at lines 2--11
+\TU/Charter(0)/m/n/10.95 pula bidang \TU/Charter(0)/m/it/10.95 security \TU/Cha
+rter(0)/m/n/10.95 (keamanan)[][][][][]. Prinsip utama dari
  []
 
-
-Underfull \hbox (badness 1331) in paragraph at lines 20--29
-\TU/Charter(0)/m/n/10.95 Sebelum ini Dan Farmer dikenal dengan karyanya yang
- []
-
-[22
+[23
 
 
 
 
 ]
-Underfull \hbox (badness 1097) in paragraph at lines 57--61
+Underfull \hbox (badness 3049) in paragraph at lines 27--36
+[]\TU/Charter(0)/m/n/10.95 Penetration testing pada awalnya dipopulerkan oleh
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 27--36
+\TU/Charter(0)/m/n/10.95 Sebelum ini Dan Farmer dikenal dengan karyanya yang
+ []
+
+[24]
+Underfull \hbox (badness 1097) in paragraph at lines 64--68
 []\TU/Charter(0)/m/n/10.95 Greybox melakukan simulasi valid user. Artinya dia
  []
 
-[23]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [24]) [25] (./tentang-AI.bbl [26
+[25] [26]) [27] (./tentang-AI.bbl [28
 
 
 
 
 ]
 bibitemlist
-) (./tentang-AI.ind [27
+) (./tentang-AI.ind [29
 
-] [28
+] [30
 
 
 
@@ -1459,15 +1469,15 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tentang-AI.out' has not changed.
-(rerunfilecheck)             Checksum: 705D83142C8501EAF55AC22AA330EA59;1502.
+(rerunfilecheck)             Checksum: BBDF3B4041E086BB12F3370CDE234BB5;1543.
  ) 
 Here is how much of TeX's memory you used:
- 29307 strings out of 468168
- 580831 string characters out of 5423555
- 1077779 words of memory out of 5000000
- 57539 multiletter control sequences out of 15000+600000
+ 29309 strings out of 468168
+ 580861 string characters out of 5423555
+ 1077890 words of memory out of 5000000
+ 57541 multiletter control sequences out of 15000+600000
  635655 words of font info for 104 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on tentang-AI.pdf (31 pages).
+Output written on tentang-AI.pdf (33 pages).
