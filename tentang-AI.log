@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  22 NOV 2026 13:27
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Homebrew) (preloaded format=xelatex 2026.3.4)  27 NOV 2026 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,7 +1060,7 @@ Package fontspec Info:
 (fontspec)             <->"Charter/BI/OT:language=dflt;mapping=tex-text;"
 
  (./tentang-AI.aux (./1-pengantar.aux) (./2-pendahuluan.aux)
-(./3-masalah.aux) (./3-tatakelola.aux) (./5-security.aux))
+(./3-masalah.aux) (./3-tatakelola.aux) (./5-security.aux) (./6-kesadaran.aux))
 \openout1 = `tentang-AI.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -1390,11 +1390,16 @@ Underfull \hbox (badness 1990) in paragraph at lines 64--67
  []
 
 [19]
-Underfull \hbox (badness 1910) in paragraph at lines 94--106
+Underfull \hbox (badness 2717) in paragraph at lines 92--98
+\TU/Charter(0)/m/n/10.95 untuk kesehatan (healthcare). Misalnya kita mengem-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 114--126
 \TU/Charter(0)/m/n/10.95 panasnya CPU. Mungkin karena mereka sedang bekerja
  []
 
-) [20]
+[20]) [21]
 \openout2 = `3-tatakelola.aux'.
 
  (./3-tatakelola.tex
@@ -1404,56 +1409,92 @@ Underfull \hbox (badness 2096) in paragraph at lines 11--14
 []\TU/Charter(0)/m/n/10.95 Siapa (who) yang diperkenankan mengembangkan,
  []
 
-[21
+[22
 
 
 
 
-]) [22]
+]) [23]
 \openout2 = `5-security.aux'.
 
  (./5-security.tex
 Bab 5.
 
-Underfull \hbox (badness 1975) in paragraph at lines 2--11
-\TU/Charter(0)/m/n/10.95 pula bidang \TU/Charter(0)/m/it/10.95 security \TU/Cha
-rter(0)/m/n/10.95 (keamanan)[][][][][]. Prinsip utama dari
+Underfull \hbox (badness 1577) in paragraph at lines 4--13
+\TU/Charter(0)/m/n/10.95 keamanan baru. Apakah AI “merusak” bidang sofware
  []
 
-[23
+
+Underfull \hbox (badness 7186) in paragraph at lines 14--24
+[]\TU/Charter(0)/m/n/10.95 AI memasuki bidang \TU/Charter(0)/m/it/10.95 securit
+y \TU/Charter(0)/m/n/10.95 (keamanan)[][][][][] dengan
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 14--24
+\TU/Charter(0)/m/n/10.95 dahsyat. Prinsip utama dari security sebetulnya masih
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 14--24
+\TU/Charter(0)/m/n/10.95 ingat yang luar biasa, dan kemampuan menggabungkan
+ []
+
+[24
 
 
 
 
 ]
-Underfull \hbox (badness 3049) in paragraph at lines 27--36
+Underfull \hbox (badness 2126) in paragraph at lines 56--65
+\TU/Charter(0)/m/n/10.95 token juga masuk ke kategori serangan DoS. Serangan
+ []
+
+[25]
+Underfull \hbox (badness 3049) in paragraph at lines 82--91
 []\TU/Charter(0)/m/n/10.95 Penetration testing pada awalnya dipopulerkan oleh
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 27--36
+Underfull \hbox (badness 1331) in paragraph at lines 82--91
 \TU/Charter(0)/m/n/10.95 Sebelum ini Dan Farmer dikenal dengan karyanya yang
  []
 
-[24]
-Underfull \hbox (badness 1097) in paragraph at lines 64--68
+[26]
+Underfull \hbox (badness 1097) in paragraph at lines 119--123
 []\TU/Charter(0)/m/n/10.95 Greybox melakukan simulasi valid user. Artinya dia
  []
 
+[27]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[25] [26]) [27] (./tentang-AI.bbl [28
+ [28]) [29]
+\openout2 = `6-kesadaran.aux'.
+
+ (./6-kesadaran.tex
+Bab 6.
+)
+Underfull \hbox (badness 2096) in paragraph at lines 7--88
+[]\TU/Charter(0)/m/n/10.95 Banyak orang yang berpendapat ini adalah masalah
+ []
+
+[30
+
+
+
+
+] (./tentang-AI.bbl [31
 
 
 
 
 ]
 bibitemlist
-) (./tentang-AI.ind [29
+) (./tentang-AI.ind [32
 
-] [30
+] [33
 
 
 
@@ -1463,21 +1504,21 @@ bibitemlist
 
  (./tentang-AI.aux (./1-pengantar.aux)
 (./2-pendahuluan.aux) (./3-masalah.aux) (./3-tatakelola.aux) (./5-security.aux)
-)
+(./6-kesadaran.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tentang-AI.out' has not changed.
-(rerunfilecheck)             Checksum: BBDF3B4041E086BB12F3370CDE234BB5;1543.
+(rerunfilecheck)             Checksum: 4269D453FFB4ECC3A57953DC73D58161;1747.
  ) 
 Here is how much of TeX's memory you used:
- 29309 strings out of 468168
- 580861 string characters out of 5423555
- 1077890 words of memory out of 5000000
- 57541 multiletter control sequences out of 15000+600000
+ 29335 strings out of 468168
+ 581526 string characters out of 5423555
+ 1078936 words of memory out of 5000000
+ 57560 multiletter control sequences out of 15000+600000
  635655 words of font info for 104 fonts, out of 8000000 for 9000
  1352 hyphenation exceptions out of 8191
  85i,12n,104p,1009b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on tentang-AI.pdf (33 pages).
+Output written on tentang-AI.pdf (36 pages).

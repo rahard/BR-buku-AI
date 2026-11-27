@@ -6,46 +6,47 @@ A level-1 auxiliary file: 2-pendahuluan.aux
 A level-1 auxiliary file: 3-masalah.aux
 A level-1 auxiliary file: 3-tatakelola.aux
 A level-1 auxiliary file: 5-security.aux
+A level-1 auxiliary file: 6-kesadaran.aux
 The style file: plain.bst
 Database file #1: references.bib
-You've used 4 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            524 strings with 4610 characters,
-and the built_in function-call counts, 928 in all, are:
-= -- 84
-> -- 34
+            529 strings with 4718 characters,
+and the built_in function-call counts, 1143 in all, are:
+= -- 103
+> -- 41
 < -- 0
-+ -- 15
-- -- 10
-* -- 38
-:= -- 168
-add.period$ -- 13
-call.type$ -- 4
-change.case$ -- 14
++ -- 18
+- -- 12
+* -- 46
+:= -- 206
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 43
-empty$ -- 89
-format.name$ -- 10
-if$ -- 196
+cite$ -- 5
+duplicate$ -- 55
+empty$ -- 111
+format.name$ -- 12
+if$ -- 242
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 6
-newline$ -- 24
-num.names$ -- 8
-pop$ -- 30
+int.to.str$ -- 5
+missing$ -- 8
+newline$ -- 29
+num.names$ -- 10
+pop$ -- 38
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 16
 quote$ -- 0
-skip$ -- 26
+skip$ -- 32
 stack$ -- 0
-substring$ -- 21
-swap$ -- 4
+substring$ -- 26
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 12
 warning$ -- 0
-while$ -- 8
-width$ -- 5
-write$ -- 46
+while$ -- 10
+width$ -- 6
+write$ -- 56

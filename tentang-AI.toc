@@ -13,14 +13,20 @@
 \contentsline {section}{\numberline {3.2}Tidak Dapat Dijelaskan}{19}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Tidak Transparan}{19}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Bias - Tidak Fair}{19}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Terlalu Banyak Menggunakan Energi}{19}{section.3.5}%
-\contentsline {section}{\numberline {3.6}AI Menghabiskan Air?}{20}{section.3.6}%
-\contentsline {chapter}{\chapternumberline {4}Tata Kelola AI}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Siapa Yang Boleh Menggunakan AI}{22}{section.4.1}%
-\contentsline {chapter}{\chapternumberline {5}AI dan Cybersecurity}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}AI untuk penetration testing}{24}{section.5.1}%
-\contentsline {subsection}{Recon}{25}{section*.3}%
-\contentsline {section}{\numberline {5.2}Malware Detection}{27}{section.5.2}%
-\contentsline {chapter}{Epilog}{28}{chapter*.5}%
-\contentsline {chapter}{Bibliografi}{29}{chapter*.7}%
-\contentsline {chapter}{Indeks}{30}{chapter*.8}%
+\contentsline {section}{\numberline {3.5}Pelanggaran Privasi}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Terlalu Banyak Menggunakan Energi}{20}{section.3.6}%
+\contentsline {section}{\numberline {3.7}AI Menghabiskan Air?}{20}{section.3.7}%
+\contentsline {chapter}{\chapternumberline {4}Tata Kelola AI}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Siapa Yang Boleh Menggunakan AI}{23}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {5}AI dan Cybersecurity}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Prinsip Keamanan}{25}{section.5.1}%
+\contentsline {subsection}{Confidentiality}{25}{section*.3}%
+\contentsline {subsection}{Integrity}{25}{section*.4}%
+\contentsline {subsection}{Availability}{25}{section*.5}%
+\contentsline {section}{\numberline {5.2}AI untuk penetration testing}{26}{section.5.2}%
+\contentsline {subsection}{Recon}{28}{section*.6}%
+\contentsline {section}{\numberline {5.3}Malware Detection}{29}{section.5.3}%
+\contentsline {chapter}{\chapternumberline {6}Kesadaran - Consciousness}{30}{chapter.6}%
+\contentsline {chapter}{Epilog}{31}{chapter*.8}%
+\contentsline {chapter}{Bibliografi}{32}{chapter*.10}%
+\contentsline {chapter}{Indeks}{33}{chapter*.11}%

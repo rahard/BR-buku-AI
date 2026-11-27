@@ -1,13 +1,68 @@
 \chapter{AI dan Cybersecurity}
-Semua bidang saat ini sudah dimasuki oleh AI. 
-Demikian pula bidang \emph{security} (keamanan)\footnote{Istilah cybersecurity
+\index{security}
+
+Pada saat buku ini ditulis, dunia sedang ramai dihentakkan dengan
+banyaknya lubang keamanan (security hole, bugs, flaws) yang ditemukan
+oleh AI di software.
+Nyaris setiap minggu ada peringatan keamanan tentang kelemahan
+dari sebuah software.
+Para pekerja berjibaku untuk memperbaiki dan memperbaharui software
+yang digunakan oleh organisasinya.
+Baru selesai memperbaiki, sudah ada lubang keamanan baru.
+Apakah AI ``merusak'' bidang sofware dengan temuan lubang keamanan ini?
+
+AI memasuki bidang \emph{security} (keamanan)\footnote{Istilah cybersecurity
 mulai muncul untuk menghindari kerancuan dengan keamanan fisik.
-Selain itu kebanyakan kasus security ini terjadi di dunia siber.}.
-Prinsip utama dari security sebetulnya masih sama~\cite{rahardjo1999}, 
-hanya AI memberikan kemampuan yang lebih
-dengan analisis (reasoning) yang lebih tajam, daya ingat yang luar biasa,
+Selain itu kebanyakan kasus security ini terjadi di dunia siber.}
+dengan dahsyat.
+Prinsip utama dari security sebetulnya masih tetap sama~\cite{rahardjo1999}, 
+hanya AI memberikan kemampuan yang lebih dengan analisis (reasoning) 
+yang lebih tajam, daya ingat yang luar biasa,
 dan kemampuan menggabungkan berbagai kejadian menjadi sebuah
 masalah yang signifikan.
+Lawakannya adalah dia seperti menggunakan steroid.
+
+\section{Prinsip Keamanan}
+Pada prinsipnya keamanan itu dapat didefinisikan dengan:
+\begin{itemize}
+\item confidentiality\index{confidentiality} (kerahasiaan);
+\item integrity\index{integrity} (integritas);
+\item availability\index{availability} (ketersediaan).
+\end{itemize}
+Ketiga ini dapat dikatakan sebagai aspek security
+atau \emph{security goals}. Seringkali mereka disebut CIA.
+Tentu saja masih ada aspek keamanan lainnya tetapi tidak sefundamental
+ketiga hal di atas.
+
+\subsection{Confidentiality}
+Data hanya boleh diakses oleh pihak yang berhak.
+Jika data yang dirahasiakan adalah data pribadi, dia disebut privasi.
+
+Contoh serangan terhadap aspek ini adalah
+kebocoran data, akses yang diterobos sehingga data dapat diakses
+oleh yang tidak berhak.
+
+
+\subsection{Integrity}
+Data tidak boleh berubah tanpa ijin pemilik.
+
+Serangan dapat berupa perubahan data oleh pihak yang tidak berhak.
+Man-in-the-middle attack adalah salah satu contoh penyerangan
+terhadap integritas data.
+
+\subsection{Availability}
+Data (sistem) harus tersedia ketika dibutuhkan.
+
+Serangan dilakukan dengan target meniadakan layanan
+atau \emph{Denial of Service} (DoS).
+Contoh serangan adalah dengan mengakses sistem secara bertubi-tubi
+dengan jumlah yang sangat besar.
+Serangan yang menghabiskan jaringan atau token juga masuk ke kategori
+serangan DoS.
+Serangan DoS juga ada yang tidak mematikan sistem secara total
+tetapi membuat sistem menjadi sangat lambat sehingga sulit dikatakan
+sistem sebagai berfungsi.
+
 
 AI dapat digunakan untuk menyerang (attack)
 dan juga untuk bertahan (defense).
